@@ -5,7 +5,7 @@ import { SiLeetcode, SiHackerrank, SiGeeksforgeeks } from "react-icons/si";
 const Contact = () => {
   return (
  
-    <section id="/contact"  className="bg-[#0d1126] text-white py-26 px-16">    <div id="con"></div>
+    <section id="/contact"  className="bg-[#0d1126] sm:mt-8 md:mt-10 text-white py-26 px-16">    <div id="con"></div>
       <div className="max-w-[1100px] mx-auto">
         {/* Title */}
         <div className="text-center mb-12">

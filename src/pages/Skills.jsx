@@ -33,7 +33,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="/skills" className="bg-[#0d1126] text-white py-26 px-16">
+    <section id="/skills" className="bg-[#0d1126] text-white py-32 px-16">
       <div className="max-w-[1260px] mx-auto px-4">
         <h2 className="text-center text-3xl font-bold mb-10 text-white">
           Skills
@@ -89,3 +89,4 @@ const Skills = () => {
 };
 
 export default Skills;
+

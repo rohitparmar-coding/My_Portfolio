@@ -22,11 +22,18 @@ const About = () => {
         {/* Content Wrapper */}
         <div className="flex flex-col md:flex-row items-start md:items-center md:justify-center gap-8">
           {/* Profile Image */}
-          <div className="flex-shrink-0 w-[40%]">
+          {/* <div className="">
             <img
               src={profile_img}
               alt="Profile"
-              className="w-48 h-48 md:w-85 md:h-86 rounded-full shadow-2xl border-4 border-blue-200 object-cover"
+              className="w-60 h-60  md:items-center md:justify-center rounded-full shadow-2xl border-2 border-blue-50 object-cover"
+            />
+          </div> */}
+           <div className="flex justify-center md:justify-start w-full md:w-[40%] lg:w-[35%]">
+            <img
+              src={profile_img}
+              alt="Profile"
+              className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full shadow-2xl border-4 border-blue-500 object-cover transition-transform duration-300 hover:scale-105"
             />
           </div>
 
@@ -81,3 +88,4 @@ const About = () => {
 };
 
 export default About;
+

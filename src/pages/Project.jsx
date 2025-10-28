@@ -44,7 +44,7 @@ const Project = () => {
   ];
 
   return (
-    <div id="/projects" className="bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 py-26 px-16">
+    <div id="/projects" className="bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 py-32 px-16">
       <div className="max-w-[1260px] mx-auto flex flex-col items-center gap-12">
         
         {/* Heading */}
